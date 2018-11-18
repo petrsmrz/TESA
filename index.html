@@ -45,7 +45,7 @@
               //log("Requesting caliper device");
 
               //const options = {filters: [{ services: ['c1b25000-caaf-6d0e-4c33-7dae30052840']}]}
-              const options = {filters: [{ name: 'SY-Tesa'}], optionalServices: ['6e400002-b5a3-f393-e0a9-e50e24dcca9e']};
+              const options = {filters: [{ name: 'TLC-BLE'}], optionalServices: ['6e400002-b5a3-f393-e0a9-e50e24dcca9e']};
               const device = await navigator.bluetooth.requestDevice(options);
               //const device = await navigator.bluetooth.requestDevice( {acceptAllDevices: true,  optionalServices: ['c1b25000-caaf-6d0e-4c33-7dae30052840']} );
               log("Instrument: " + device.name);
