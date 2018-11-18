@@ -1,2 +1,2 @@
-# Mitutoyo Caliper
-Mitutoyo_Caliper
+# Tesa Caliper
+Tesa_Caliper
